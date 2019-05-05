@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>410</x>
+      <y>240</y>
+      <w>170</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Register
+--
+id: Int
+--
+...</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>780</x>
+      <y>240</y>
+      <w>170</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Sale
+--
+time: DateTime
+--
+...</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>780</x>
+      <y>400</y>
+      <w>170</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>Store
+--
+address: Address
+phone: PhoneNumber
+--
+...</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>570</x>
+      <y>260</y>
+      <w>230</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+r1=1
+m1=currentSale 
+</panel_attributes>
+    <additional_attributes>210.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>570</x>
+      <y>270</y>
+      <w>230</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+r1=1
+m1=location</panel_attributes>
+    <additional_attributes>210.0;170.0;10.0;10.0</additional_attributes>
+  </element>
+</diagram>
